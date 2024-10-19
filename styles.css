@@ -1,0 +1,34 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+    background-color:#c90412;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+.card {
+    border: 1px solid #010005;
+    padding: 10px;
+    text-align: center;
+}
+footer {
+    background-color:#c90412;
+    color: rgb(134, 208, 225);
+    text-align: center;
+    padding: 10px 0;
+}
+body {
+    background-color: #ac6255; /* Background color for the entire page */
+   
+}
